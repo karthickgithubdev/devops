@@ -11,7 +11,7 @@ node {
 	stage('Build image') {
 		/* Build the image based on the source */
 
-		app = docker.build('uploadtodocker/experimenthub')
+		app = docker.build("uploadtodocker/experimenthub")
 
 	}
 
